@@ -24,6 +24,63 @@ textarea {
 }
 
 .home-top {
-    height: 80%;
+    width: 100%;
     background: #50d691;
+    position: relative;
+    display: inline-block;
+}
+
+.home-nav-container{
+    padding-top: 1.6em;
+}
+
+.home-nav-button {
+    font-size: .7em;
+    color: white;
+}
+
+.phone-select-container {
+    padding: 2.6em;
+    color: white;
+    font-size: 2.5em;
+
+}
+
+.pickup-text {
+    padding-bottom: .7em
+}
+
+.zip-input {
+    font-size: .4em;
+    width: 153px;
+    margin: 14px 0;}
+
+.zip-submit {
+    background: #50d691;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 0px;
+    color: white;
+}
+
+.circle-container {
+    display: table;
+    margin: auto;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    background: white;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+}
+
+.img-centered {
+    display: block;
+    margin: auto;
 }
